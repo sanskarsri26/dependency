@@ -1,3 +1,6 @@
+Here's the complete installation guide in Markdown format, ready to be copied into your `README.md` file:
+
+```markdown
 # Project Dependency Installation Guide
 
 This guide will walk you through the installation of the necessary dependencies for the project, including Python and additional libraries.
@@ -21,70 +24,87 @@ Before installing the dependencies, ensure that you have administrative rights o
 2. Install Homebrew if it's not already installed by running:
    ```bash
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-Install Python using Homebrew:
-bash
-Copy code
-brew install python
-Linux:
+   ```
+3. Install Python using Homebrew:
+   ```bash
+   brew install python
+   ```
+
+### Linux:
+
 Most Linux distributions come with Python pre-installed. To check if Python is installed, open the terminal and run:
-
-bash
-Copy code
+```bash
 python3 --version
+```
 If Python is not installed, you can install it using your package manager. For Debian-based systems, run:
-
-bash
-Copy code
+```bash
 sudo apt-get update
 sudo apt-get install python3
-Step 2: Install Project Dependencies
-The project requires the following dependencies:
+```
 
-PyQt5: A set of Python bindings for the Qt application framework.
-SQLite3: A database management system.
-DB Browser for SQLite: A visual tool to manage SQLite databases.
+## Step 2: Install Project Dependencies
+
+The project requires the following dependencies:
+- **PyQt5**: A set of Python bindings for the Qt application framework.
+- **SQLite3**: A database management system.
+- **DB Browser for SQLite**: A visual tool to manage SQLite databases.
+
 Run the following command in your terminal or command prompt to install the dependencies based on your operating system.
 
-For Linux:
-Open a terminal.
-Run the following command to install the dependencies:
-bash
-Copy code
-python3 install_dependencies.py
-For macOS:
-Open a terminal.
-Run the following command to install the dependencies:
-bash
-Copy code
-python3 install_dependencies.py
-For Windows:
-Open Command Prompt as Administrator.
-Run the following command to install the dependencies:
-bash
-Copy code
-python install_dependencies.py
-Step 3: Verify Installation
+### For Linux:
+
+1. Open a terminal.
+2. Run the following command to install the dependencies:
+   ```bash
+   python3 install_dependencies.py
+   ```
+
+### For macOS:
+
+1. Open a terminal.
+2. Run the following command to install the dependencies:
+   ```bash
+   python3 install_dependencies.py
+   ```
+
+### For Windows:
+
+1. Open Command Prompt as Administrator.
+2. Run the following command to install the dependencies:
+   ```bash
+   python install_dependencies.py
+   ```
+
+## Step 3: Verify Installation
+
 To verify that the dependencies are installed correctly, you can run the following commands:
 
-For Python:
-bash
-Copy code
+### For Python:
+```bash
 python --version  # or python3 --version
-For PyQt5:
-bash
-Copy code
-python -m pip show pyqt5
-For SQLite3:
-bash
-Copy code
-sqlite3 --version
-For DB Browser for SQLite:
-Open the application from your applications menu or by running:
+```
 
-bash
-Copy code
+### For PyQt5:
+```bash
+python -m pip show pyqt5
+```
+
+### For SQLite3:
+```bash
+sqlite3 --version
+```
+
+### For DB Browser for SQLite:
+Open the application from your applications menu or by running:
+```bash
 sqlitebrowser
-Conclusion
+```
+
+## Conclusion
+
 Once you have completed these steps, you should have all the necessary dependencies installed. You can now run the project and start using the features provided.
 
 If you have any questions or run into issues, feel free to reach out for assistance.
+```
+
+This Markdown is formatted for clarity and ease of use. You can copy and paste it directly into your `README.md` file.
