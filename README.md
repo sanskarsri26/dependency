@@ -45,9 +45,9 @@ sudo apt-get install python3
 ## Step 2: Install Project Dependencies
 
 The project requires the following dependencies:
-- **PyQt5**: A set of Python bindings for the Qt application framework.
-- **SQLite3**: A database management system.
-- **DB Browser for SQLite**: A visual tool to manage SQLite databases.
+- **PyQt5**: 
+- **SQLite3**:
+- **DB Browser for SQLite**: 
 
 Run the following command in your terminal or command prompt to install the dependencies based on your operating system.
 
@@ -104,7 +104,5 @@ sqlitebrowser
 
 Once you have completed these steps, you should have all the necessary dependencies installed. You can now run the project and start using the features provided.
 
-If you have any questions or run into issues, feel free to reach out for assistance.
+Feel free to reach out for assistance if you have any questions or run into issues.
 ```
-
-This Markdown is formatted for clarity and ease of use. You can copy and paste it directly into your `README.md` file.
